@@ -271,7 +271,7 @@
     <value>Salvar</value>
   </data>
   <data name="SaveProfile" xml:space="preserve">
-    <value>Salvar Perfil</value>
+    <value>Salvar</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Configurações</value>
@@ -356,16 +356,16 @@
     <value>XInputChecker</value>
   </data>
   <data name="Controller5Text" xml:space="preserve">
-    <value>Controle 5</value>
+    <value>Controller 5</value>
   </data>
   <data name="Controller6Text" xml:space="preserve">
-    <value>Controle 6</value>
+    <value>Controller 6</value>
   </data>
   <data name="Controller7Text" xml:space="preserve">
-    <value>Controle 7</value>
+    <value>Controller 7</value>
   </data>
   <data name="Controller8Text" xml:space="preserve">
-    <value>Controle 8</value>
+    <value>Controller 8</value>
   </data>
   <data name="GamepadGyroCameraDescription" xml:space="preserve">
     <value>Mapeia a saída do controlador para um gamepad padrão XInput ou DS4. O Gyro é mapeado para um Joystick parecido com um mouse.</value>
@@ -425,15 +425,15 @@
     <value>Nenhum controle conectado (Max {0})</value>
   </data>
   <data name="FlickThreshold" xml:space="preserve">
-    <value>Limite do Flick</value>
+    <value>Flick Threshold</value>
   </data>
   <data name="FlickTime" xml:space="preserve">
-    <value>Tempo do Flick</value>
+    <value>Flick Time</value>
   </data>
   <data name="MinAngleThreshold" xml:space="preserve">
-    <value>Ângulo minimo limite</value>
+    <value>Min Angle Threshold</value>
   </data>
   <data name="RealWorldCalibration" xml:space="preserve">
-    <value>Calibração Real World</value>
+    <value>Real World Calibration</value>
   </data>
 </root>

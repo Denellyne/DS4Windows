@@ -124,8 +124,11 @@ namespace DS4WinWPF
                                 }
                                 else
                                 {
-                                    Global.LoadTempProfile(j, tempname, true, Program.rootHub); // j is controller index, i is filename
+                                    device.HaltReportingRunAction(() =>
+                                    {
+                                        Global.LoadTempProfile(j, tempname, true, Program.rootHub); // j is controller index, i is filename
                                                                                                     // if (LaunchProgram[j] != string.Empty) Process.Start(LaunchProgram[j]);
+                                    });
                                 }
                             }
                             else
@@ -192,7 +195,10 @@ namespace DS4WinWPF
                                 }
                                 else
                                 {
-                                    Global.LoadProfile(j, false, Program.rootHub);
+                                    device.HaltReportingRunAction(() =>
+                                    {
+                                        Global.LoadProfile(j, false, Program.rootHub);
+                                    });
                                 }
                             }
                             else
